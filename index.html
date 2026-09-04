@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto - Sorteio</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--font-awesome 5-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!--bootstrap 5-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+</head>
+
+<body style="background-color: #e7dfdf;">
+
+
+    <div id="container_sorteio">
+
+        <div id="container_sorteio_text">
+
+            <i class="fas fa-utensils"></i>
+
+            <h1 id="container_sorteio_text__title">O que vamos comer?</h1>
+            <p class="container_sorteio_text__descripton">Cada pessoa adiciona opções. O sistema sorteia</p>
+        </div><!--fim container_sorteio_text-->
+
+        <div id="container_sorteio__content" class="container">
+
+            <div id="container_sorteio__content__form">
+
+                <div id="container_sorteio__content__form__input">
+
+                    <label for="input_option">Adicionar opção</label>
+                    <input type="text" name="input_option" id="input_option" placeholder="Ex:Pizza"
+                        class="form-control">
+
+                    <button id="btn_adicionar">Adicionar</button>
+
+                    <p class="textError text-danger mt-3 fw-bold"></p>
+
+                    <h5 id="container_sorteio__content__form__input_subtitle_option">Opções adicionadas <span
+                            id="span_number_options"></span></h5>
+
+
+                </div><!--fim container_sorteio__content__form__input-->
+
+            </div><!--fim container_sorteio__content__form-->
+
+
+
+            <div id="container_sorteio__content__result">
+
+                <h5 id="container_sorteio__content__result__subtitle">Resultado do Sorteio</h5>
+
+                <p id="container_sorteio__content__result_item"></p>
+                <button id="btn_sortearNovamente"> <i class="fas fa-dice-d20"></i> Sortear</button>
+
+            </div><!--fim container_sorteio__content__result-->
+
+        </div><!--fim container_sorteio__content-->
+
+    </div><!--fim container_sorteio-->
+
+
+
+    <!--scripts-->
+    <script src="js/script.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
