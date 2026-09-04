@@ -2,6 +2,8 @@
 
 Aplicação web para realizar sorteios de forma simples e interativa.
 
+<img src="imagem_projeto_sorteio.png" alt="imagem do projeto">
+
 ## Tecnologias
 
 * HTML5
